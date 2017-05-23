@@ -45,7 +45,7 @@ into the `$PATH` for easy use in subsequent buildpacks.
 Having trouble? Dig it? Feature request?
 
 - [help.heroku.com](https://help.heroku.com/)
-- [@hunterloftis](http://twitter.com/hunterloftis)
+- [@jeremymorrell](http://twitter.com/jeremymorrell)
 - [GitHub issues](https://github.com/heroku/heroku-buildpack-nodejs/issues)
 
 ## Hacking
@@ -84,5 +84,5 @@ make test-cedar-14
 ```
 
 The tests are run via the vendored
-[shunit2](http://shunit2.googlecode.com/svn/trunk/source/2.1/doc/shunit2.html)
+[shunit2](https://github.com/kward/shunit2)
 test framework.
