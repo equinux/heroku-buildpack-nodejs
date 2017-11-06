@@ -2,6 +2,33 @@
 
 ## Master
 
+## v110 (2017-07-26)
+
+- Improve error messages when bin version requirements are invalid (#457)
+
+## v109 (2017-07-25)
+
+- Switch to using nodebin to download the node binary (#451)
+
+## v108 (2017-07-24)
+
+- Add `$STACK` to the cache signature (#445)
+- Log output now differentiates between an empty cache and a new cache signature (#448)
+- Remove the use of semver.io to bootstrap npm (#452)
+- Switch to using nodebin to download iojs binaries (#450)
+
+## v107 (2017-07-17)
+
+- Switch to using nodebin to download the yarn binary (#444)
+
+## v106 (2017-06-19)
+
+- Default to npm v5 if `package-lock.json` is present (#429)
+
+## v105 (2017-05-26)
+
+- Break the build if yarn and npm lockfiles are both included (#411)
+
 ## v104 (2017-05-22)
 
 - Add `$PREBUILD` to cache signature (#405)
